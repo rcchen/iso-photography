@@ -1,10 +1,7 @@
-<?
-
+<?php
 $str = file_get_contents('sample.json');
 $json = json_decode($str);
-
 ?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,37 +15,37 @@ $json = json_decode($str);
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="iso-cover" style="background-image: url('<? echo $json->background; ?>');">
+	<div id="iso-cover" style="background-image: url('<?php echo $json->background; ?>');">
 		<div id="iso-coverwrapper">
-			<div id="iso-title" class="iso-sans"><? echo $json->title; ?></div>
-			<div id="iso-subtitle" class="iso-serif"><? echo $json->subtitle; ?></div>
+			<div id="iso-title" class="iso-sans"><?php echo $json->title; ?></div>
+			<div id="iso-subtitle" class="iso-serif"><?php echo $json->subtitle; ?></div>
 		</div>
 	</div>
 	<div id="iso-content">
 		<div class="container">
-			<? $prevType = null; ?>
-			<? foreach ($json->content as $contentObject) { ?>
-				<? if ($contentObject->type == "heading") { ?>
-					<? if ($prevType == 'strip') { ?></div><? } ?>
+			<?php $prevType = null; ?>
+			<?php foreach ($json->content as $contentObject) { ?>
+				<?php if ($contentObject->type == "heading") { ?>
+					<?php if ($prevType == 'strip') { ?></div><?php } ?>
 					<div class="iso-divider"></div>
-					<div class="iso-heading iso-sans"><? echo $contentObject->content; ?></div>
-				<? } elseif ($contentObject->type == "text") { ?>
-					<? if ($prevType == 'strip') { ?></div><? } ?>
-					<div class="iso-text iso-serif"><? echo $contentObject->content; ?></div>
-				<? } elseif ($contentObject->type == "strip") { ?>
-					<? if ($prevType != 'strip') { ?>  
+					<div class="iso-heading iso-sans"><?php echo $contentObject->content; ?></div>
+				<?php } elseif ($contentObject->type == "text") { ?>
+					<?php if ($prevType == 'strip') { ?></div><?php } ?>
+					<div class="iso-text iso-serif"><?php echo $contentObject->content; ?></div>
+				<?php } elseif ($contentObject->type == "strip") { ?>
+					<?php if ($prevType != 'strip') { ?>  
 						<div class="iso-collection">
-					<? } ?>
+					<?php } ?>
 					<div class="iso-strip row">
-					<? foreach ($contentObject->photos as $photo) { ?>
-						<div class="iso-photo col-sm-<? echo 12/$contentObject->count; ?>">
-							<img src="<? echo $photo; ?>" />
+					<?php foreach ($contentObject->photos as $photo) { ?>
+						<div class="iso-photo col-sm-<?php echo 12/$contentObject->count; ?>">
+							<img src="<?php echo $photo; ?>" />
 						</div>
-					<? } ?>
+					<?php } ?>
 					</div>
-				<? } ?>
-				<? $prevType = $contentObject->type; ?>
-			<? } ?>
+				<?php } ?>
+				<?php $prevType = $contentObject->type; ?>
+			<?php } ?>
 		</div>
 	</div>
 	<div id="iso-footer" class="iso-sans">
