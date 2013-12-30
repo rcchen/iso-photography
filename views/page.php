@@ -50,13 +50,34 @@ $json = json_decode($str);
 		</div>
 	</div>
 	<div id="iso-footer" class="iso-sans">
-		<div id="iso-share">
+		<!-- <div id="iso-share">
 			<button>Twitter</button>
 			<button>Facebook</button>
+		</div> -->
+		<div id="iso-signup" class="iso-sans">
+			Want to share your adventure? Sign up to be notified when Iso enters public beta.
+			<form action="/hitting-the-road" id="signup">
+				<input type="text" name="email" placeholder="Email address">
+				<input type="submit" value="Sign up">
+			</form>
 		</div>
 		<div id="iso-opensource" class="iso-sans">
 			<a href="https://www.github.com/rcchen/iso-photography">Github</a>
 		</div>
 	</div>
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$('#signup').submit(function(event) {
+		event.preventDefault();
+		var $form = $(this),
+			emailAddr = $form.find("input[name='email']").val(),
+			url = $form.attr("action");
+		var posting = $.post(url, { email: emailAddr});
+		posting.done(function(data) {
+			console.log(data);
+			$('#iso-signup').empty().append(data);
+		});
+	});
+	</script>
 </body>
 </html>

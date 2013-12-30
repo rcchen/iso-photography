@@ -7,16 +7,28 @@ $app = new \Slim\Slim(array(
     'templates.path' => './views'    
 ));
 
+/**
+ * Main route. 
+ */
 $app->get('/', function() use ($app) {
     $app->redirect('/hitting-the-road');
 });
 
+/**
+ * Permanent route for sample story
+ */
 $app->get('/hitting-the-road', function() use ($app) {
 	$app->render('page.php');
 });
 
-$app->post('/notify', function() {
-
+$app->post('/hitting-the-road', function() use ($app) {
+	$email = $app->request->post('email');
+	$file = 'emails';
+	$current = file_get_contents($file);
+	$current .= $email;
+	$current .= PHP_EOL;
+	file_put_contents($file, $current);
+	echo "We'll let you know when it is ready at $email";
 });
 
 $app->run();

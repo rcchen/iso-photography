@@ -131,6 +131,29 @@ html, body {
 #iso-footer {
 	background-color: $lightgrey;
 	padding: 40px 0px;
+	#iso-signup {
+		margin: 20px auto;
+		width: 50%;
+		text-align: center;
+		form {
+			margin: 20px auto;
+		}
+		input {
+			margin-top: 4px;
+			border: 1px solid $black;
+			padding: 4px 10px;
+		}
+		input[type="text"] {
+		}
+		input[type="submit"] {
+			background-color: $lightgrey;
+			&:hover {
+				background-color: $black;
+				color: $white;
+				border-color: $lightgrey;
+			}
+		}
+	}
 	#iso-share {
 		margin: 0px auto;
 		width: 50%;
