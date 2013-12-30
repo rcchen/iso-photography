@@ -8,7 +8,15 @@ $app = new \Slim\Slim(array(
 ));
 
 $app->get('/', function() use ($app) {
-    $app->render('page.php');
+    $app->redirect('/hitting-the-road');
+});
+
+$app->get('/hitting-the-road', function() use ($app) {
+	$app->render('page.php');
+});
+
+$app->post('/notify', function() {
+
 });
 
 $app->run();
