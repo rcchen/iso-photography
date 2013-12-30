@@ -28,11 +28,13 @@ html, body {
   #iso-cover #iso-title {
     text-transform: uppercase;
     font-size: 72px;
+    font-size: 8vh;
     font-weight: 600;
     letter-spacing: 3px; }
   #iso-cover #iso-subtitle {
     margin: 20px 0px;
     font-size: 28px;
+    font-size: 3vh;
     letter-spacing: 1px;
     font-style: italic; }
 
@@ -40,13 +42,16 @@ html, body {
   margin: 40px 0px;
   text-align: center;
   font-size: 38px;
+  /* font-size: 5vh; */
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px; }
 #iso-content .iso-text {
   margin: 40px 0px;
   font-size: 18px;
-  line-height: 40px; }
+  /* font-size: 2.2vh; */
+  line-height: 40px;
+  /* line-height: 4.4vh; */ }
 #iso-content .iso-strip {
   margin: 20px 0px; }
   #iso-content .iso-strip .iso-photo {
@@ -115,9 +120,19 @@ html, body {
       font-size: 16px;
       font-weight: 400;
       width: 140px;
-      margin: 0px 8px;
+      margin: 5px 8px;
       letter-spacing: 1px; }
       #iso-footer #iso-share button:hover {
         background-color: #111111;
         color: white;
         border-color: #efefef; }
+  #iso-footer #iso-opensource {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase; }
+    #iso-footer #iso-opensource a {
+      color: #111111; }
+      #iso-footer #iso-opensource a:hover {
+        text-decoration: none;
+        color: #cacaca; }

@@ -38,12 +38,14 @@ html, body {
 	#iso-title {
 		text-transform: uppercase;
 		font-size: 72px;
+		font-size: 8vh;
 		font-weight: 600;
 		letter-spacing: 3px;
 	}
 	#iso-subtitle {
 		margin: 20px 0px;
 		font-size: 28px;
+		font-size: 3vh;
 		letter-spacing: 1px;
 		font-style: italic;
 	}
@@ -54,6 +56,7 @@ html, body {
 		margin: 40px 0px;
 		text-align: center;
 		font-size: 38px;
+		/* font-size: 5vh; */
 		font-weight: bold;
 		text-transform: uppercase;
 		letter-spacing: 2px;
@@ -61,7 +64,9 @@ html, body {
 	.iso-text {
 		margin: 40px 0px;
 		font-size: 18px;
+		/* font-size: 2.2vh; */
 		line-height: 40px;
+		/* line-height: 4.4vh; */
 	}
 	.iso-strip {
 		margin: 20px 0px;
@@ -138,12 +143,25 @@ html, body {
 			font-size: 16px;
 			font-weight: 400;
 			width: 140px;
-			margin: 0px 8px;
+			margin: 5px 8px;
 			letter-spacing: 1px;
 			&:hover {
 				background-color: $black;
 				color: $white;
 				border-color: $lightgrey;
+			}
+		}
+	}
+	#iso-opensource {
+		margin: 20px auto;
+		width: 50%;
+		text-align: center;
+		text-transform: uppercase;
+		a {
+			color: $black;
+			&:hover {
+				text-decoration: none;
+				color: $grey;
 			}
 		}
 	}

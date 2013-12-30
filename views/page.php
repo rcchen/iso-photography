@@ -5,6 +5,7 @@ $json = json_decode($str);
 <!doctype html>
 <html lang="en">
 <head>
+	<title><?php echo $json->title; ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Bootstrap for scaffolding -->
 	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
@@ -27,7 +28,7 @@ $json = json_decode($str);
 			<?php foreach ($json->content as $contentObject) { ?>
 				<?php if ($contentObject->type == "heading") { ?>
 					<?php if ($prevType == 'strip') { ?></div><?php } ?>
-					<div class="iso-divider"></div>
+					<?php if ($prevType != null) { ?><div class="iso-divider"></div><?php } ?>
 					<div class="iso-heading iso-sans"><?php echo $contentObject->content; ?></div>
 				<?php } elseif ($contentObject->type == "text") { ?>
 					<?php if ($prevType == 'strip') { ?></div><?php } ?>
@@ -52,6 +53,9 @@ $json = json_decode($str);
 		<div id="iso-share">
 			<button>Twitter</button>
 			<button>Facebook</button>
+		</div>
+		<div id="iso-opensource" class="iso-sans">
+			<a href="https://www.github.com/rcchen/iso-photography">Github</a>
 		</div>
 	</div>
 </body>
