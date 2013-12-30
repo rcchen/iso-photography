@@ -1,0 +1,150 @@
+$white: #FFFFFF;
+$black: #111111;
+$lightgrey: #EFEFEF;
+$grey: #CACACA;
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.iso-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.iso-serif {
+	font-family: 'Merriweather', serif;
+}
+
+.iso-page {
+
+}
+
+#iso-cover {
+	min-height: 100%;
+	position: relative;
+	background: url('http://sharememe.org/wp-content/uploads/2013/12/macro-photography-water-droplets-38124-hd-wallpapers-background.jpg') no-repeat center center local;
+	background-size: cover;
+	#iso-coverwrapper {
+		text-align: center;
+		width: 75%;
+		height: 50%;
+		overflow: auto;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		color: $white;
+	}
+	#iso-title {
+		text-transform: uppercase;
+		font-size: 72px;
+		font-weight: 600;
+		letter-spacing: 3px;
+	}
+	#iso-subtitle {
+		margin: 20px 0px;
+		font-size: 28px;
+		letter-spacing: 1px;
+		font-style: italic;
+	}
+}
+
+#iso-content {
+	.iso-heading {
+		margin: 40px 0px;
+		text-align: center;
+		font-size: 38px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	.iso-text {
+		margin: 40px 0px;
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.iso-strip {
+		margin: 20px 0px;
+		.iso-photo {
+			margin-top: 10px;
+			display: inline-block;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.iso-collection {
+		margin: 40px 0px;
+	}
+	.iso-divider {
+		width: 200px;
+		height: 1px;
+		background-color: $grey;
+		margin: 0 auto;
+	}
+}
+
+.iso-journey {
+	margin: 40px 0px;
+	.iso-beginning {
+		position: relative;
+		.iso-tileoverlay {
+			text-align: center;
+			width: 75%;
+			height: 50%;
+			overflow: auto;
+			margin: auto;
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			color: $white;
+			.iso-title {
+				font-size: 30px;
+				font-weight: 600;
+				letter-spacing: 2px;
+			}
+			.iso-subtitle {
+				font-size: 16px;
+				font-style: italic;
+				font-weight: 300;
+				letter-spacing: 2px;
+			}
+		}
+	}
+	.iso-overlay {
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.iso-tile {
+		height: 220px;
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#iso-footer {
+	background-color: $lightgrey;
+	padding: 40px 0px;
+	#iso-share {
+		margin: 0px auto;
+		width: 50%;
+		text-align: center;
+		button {
+			background-color: $lightgrey;
+			border: 1px solid $black;
+			text-transform: uppercase;
+			padding: 18px 0px;
+			font-size: 16px;
+			font-weight: 400;
+			width: 140px;
+			margin: 0px 8px;
+			letter-spacing: 1px;
+			&:hover {
+				background-color: $black;
+				color: $white;
+				border-color: $lightgrey;
+			}
+		}
+	}
+}
