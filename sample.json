@@ -1,5 +1,6 @@
 {
 	"id": 1234567890,
+	"background": "http://sharememe.org/wp-content/uploads/2013/12/macro-photography-water-droplets-38124-hd-wallpapers-background.jpg",
 	"title": "Lorem Ipsum Dolor",
 	"subtitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet",
 	"content": [
@@ -35,6 +36,22 @@
 		{
 			"type": "text",
 			"content": "Nam sit amet nibh est. In ut ligula cursus, vulputate velit eget, laoreet est. Nulla rhoncus mattis ligula, non varius massa aliquet eget. Maecenas gravida vulputate diam, ut varius diam tempor eget. Fusce viverra commodo est, non condimentum arcu consequat quis. Suspendisse leo nulla, varius vel metus et, aliquam bibendum dui. Sed venenatis mattis ultrices. Suspendisse dapibus lacus non est tincidunt, sit amet volutpat sapien ornare. Integer quis ante mauris. Aenean tincidunt dolor velit, vitae blandit nulla faucibus non. In hac habitasse platea dictumst."
+		},
+		{
+			"type": "strip",
+			"count": 2,
+			"photos": [
+				"https://scontent-a-pao.xx.fbcdn.net/hphotos-frc3/1468622_10152114116952154_1467684417_n.jpg",
+				"https://scontent-a-pao.xx.fbcdn.net/hphotos-ash3/1512292_10152114116707154_92616670_n.jpg"
+			]
+		},
+		{
+			"type": "heading",
+			"content": "Green Winters"
+		},
+		{
+			"type": "text",
+			"content": "Aliquam sodales nisi eget arcu condimentum, eget pulvinar dolor accumsan. Donec placerat urna sed nulla venenatis commodo. Etiam in ante augue. Cras est est, iaculis vel porta euismod, accumsan ac turpis. Nullam blandit mollis mauris, vel adipiscing mi imperdiet et. Nulla vel leo neque."
 		}
 	]
 }
