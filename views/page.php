@@ -16,6 +16,16 @@ $json = json_decode($str);
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-31716187-2', 'rogr.me');
+	  ga('send', 'pageview');
+
+	</script>
 	<div id="iso-cover" style="background-image: url('<?php echo $json->background; ?>');">
 		<div id="iso-coverwrapper">
 			<div id="iso-title" class="iso-sans"><?php echo $json->title; ?></div>
