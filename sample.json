@@ -1,57 +1,95 @@
 {
 	"id": 1234567890,
-	"background": "http://sharememe.org/wp-content/uploads/2013/12/macro-photography-water-droplets-38124-hd-wallpapers-background.jpg",
+	"background": "http://isopx-hitting-the-road.s3.amazonaws.com/IMG_6872.jpg",
 	"title": "Hitting the Road",
 	"subtitle": "&ldquo;Let us step into the night and pursue that flighty temptress, adventure.&rdquo; - Albus Dumbledore",
 	"content": [
 		{
 			"type": "heading",
-			"content": "The Storyteller"
+			"content": "Day 1: Las Vegas, NV"
 		},
 		{
 			"type": "text",
-			"content": "Integer eleifend at est vitae feugiat. Nunc auctor lorem ac cursus facilisis. Phasellus auctor tortor id nunc tristique, sed commodo dolor semper. Duis rutrum dui quis felis pharetra viverra."
+			"content": "We left our respective houses at roughly 5 AM, and were all on the road by 5:30 AM. None of us had gotten very much sleep the night before, so we rotated between sleeping and talking to each other so whoever was driving could stay awake. On our way eastwards from I-5, we saw the sun rising over the hills in the distance."
+		},
+		{
+			"type": "strip",
+			"count": 1,
+			"photos": [
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_6908.jpg"
+			]
+		},
+		{
+			"type": "text",
+			"content": "There wasn't really much to see for most of the journey from the Bay Area to Las Vegas; every once in a while we would stop for gas, get confused by the GPS, and check out the great scenery, which consisted mostly of rocks, tumbleweed, and more rocks. Something interesting that stood out during this part of our journey was that many of the reservoirs that we passed were either dry or at much lower water levels than anticipated; it really highlighted the fact that California is facing a severe drought in 2014."
 		},
 		{
 			"type": "strip",
 			"count": 3,
 			"photos": [
-				"https://scontent-a-pao.xx.fbcdn.net/hphotos-prn2/1451462_10152029580467154_449027517_n.jpg",
-				"https://scontent-a-pao.xx.fbcdn.net/hphotos-ash3/1392505_10152029581107154_861095444_n.jpg",
-				"https://scontent-a-pao.xx.fbcdn.net/hphotos-prn2/1466268_10152029584037154_27707905_n.jpg"
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_6959.jpg",
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_6953.jpg",
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_6962.jpg"
+			]
+		},
+		{
+			"type": "text",
+			"content": "Eventually, the desert scenery turned into small towns, and small towns turned into larger communities, and before we knew it, we had run into our first casino close to the Nevada state border. Another forty minutes, and we finally found ourselves in Las Vegas."
+		},
+		{
+			"type": "strip",
+			"count": 1,
+			"photos": [
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_6984.jpg"
+			]
+		},
+		{
+			"type": "text",
+			"content": "Of course, when one comes to Nevada, one avoids a bunch of gun laws that apply in California. Naturally, Daniel decided that the first thing we needed to do when we got here was to hit up the American Shooters Gun Club &amp; Range, where we got the chance to let off steam and fire an AR-15 rifle and a Remington-870 shotgun."
+		},
+		{
+			"type": "strip",
+			"count": 3,
+			"photos": [
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7023.jpg",
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7007.jpg",
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7052.jpg"
+			]
+		},
+		{
+			"type": "text",
+			"content": "By the time we finished shooting our rounds, it had gotten dark and we were all hungry, so we headed off to the strip in search of food. We stopped by at the Belagio, but the buffet was far more than we were comfortable with paying, so we walked outside to see what was around."
+		},
+		{
+			"type": "strip",
+			"count": 1,
+			"photos": [
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7079.jpg"	
 			]
 		},
 		{
 			"type": "strip",
 			"count": 2,
 			"photos": [
-				"https://scontent-a-pao.xx.fbcdn.net/hphotos-frc3/1465306_10152029584967154_870387153_n.jpg",
-				"https://scontent-b-pao.xx.fbcdn.net/hphotos-prn1/945446_10152029580647154_941955396_n.jpg"
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7083.jpg",
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7109.jpg"
 			]
 		},
 		{
-			"type": "heading",
-			"content": "The Road Less Traveled"
-		},
-		{
 			"type": "text",
-			"content": "Nam sit amet nibh est. In ut ligula cursus, vulputate velit eget, laoreet est. Nulla rhoncus mattis ligula, non varius massa aliquet eget. Maecenas gravida vulputate diam, ut varius diam tempor eget. Fusce viverra commodo est, non condimentum arcu consequat quis. Suspendisse leo nulla, varius vel metus et, aliquam bibendum dui. Sed venenatis mattis ultrices. Suspendisse dapibus lacus non est tincidunt, sit amet volutpat sapien ornare. Integer quis ante mauris. Aenean tincidunt dolor velit, vitae blandit nulla faucibus non. In hac habitasse platea dictumst."
+			"content": "We eventually managed to find a nice Italian place called Le Provencal which had pretty decent food. Maybe it was because we were all really hungry at the time, but their bread tasted really good, and left us far more full than we had originally anticipated."
 		},
 		{
 			"type": "strip",
 			"count": 2,
 			"photos": [
-				"https://scontent-a-pao.xx.fbcdn.net/hphotos-frc3/1468622_10152114116952154_1467684417_n.jpg",
-				"https://scontent-a-pao.xx.fbcdn.net/hphotos-ash3/1512292_10152114116707154_92616670_n.jpg"
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7096.jpg",
+				"http://isopx-hitting-the-road.s3.amazonaws.com/IMG_7101.jpg"
 			]
 		},
 		{
-			"type": "heading",
-			"content": "Green Winters"
-		},
-		{
 			"type": "text",
-			"content": "Aliquam sodales nisi eget arcu condimentum, eget pulvinar dolor accumsan. Donec placerat urna sed nulla venenatis commodo. Etiam in ante augue. Cras est est, iaculis vel porta euismod, accumsan ac turpis. Nullam blandit mollis mauris, vel adipiscing mi imperdiet et. Nulla vel leo neque."
+			"content": "We walked around some more and attempted to get to the highest floors of some of the casinos around here to take pictures of the city, but were foiled by some security cameras. At this point, we were all pretty tired, so we called it a night and came back to the hotel, where some people decided to frantically send email."
 		}
 	]
 }
