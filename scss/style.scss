@@ -68,7 +68,7 @@ html, body {
 		/* line-height: 4.4vh; */
 	}
 	.iso-strip {
-		margin: 20px 0px;
+		margin: 8px 0px;
 		.iso-photo {
 			margin-top: 10px;
 			display: inline-block;
@@ -188,3 +188,27 @@ html, body {
 		}
 	}
 }
+
+#iso-addcontent {
+	background-color: $lightgrey;
+	font-size: 40px;
+	text-align: center;
+	margin: 20px 0px;
+	color: $grey;
+	&:hover {
+		color: $black;
+	}
+}
+
+.iso-addphoto {
+	background-color: $lightgrey;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	color: $grey;
+	&:hover {
+		color: $black;
+	}
+}
+
+

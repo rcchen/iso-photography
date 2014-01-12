@@ -52,7 +52,7 @@ html, body {
   line-height: 40px;
   /* line-height: 4.4vh; */ }
 #iso-content .iso-strip {
-  margin: 20px 0px; }
+  margin: 8px 0px; }
   #iso-content .iso-strip .iso-photo {
     margin-top: 10px;
     display: inline-block; }
@@ -151,3 +151,21 @@ html, body {
       #iso-footer #iso-opensource a:hover {
         text-decoration: none;
         color: #cacaca; }
+
+#iso-addcontent {
+  background-color: #efefef;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0px;
+  color: #cacaca; }
+  #iso-addcontent:hover {
+    color: #111111; }
+
+.iso-addphoto {
+  background-color: #efefef;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  color: #cacaca; }
+  .iso-addphoto:hover {
+    color: #111111; }

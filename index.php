@@ -15,6 +15,13 @@ $app->get('/', function() use ($app) {
 });
 
 /**
+ * Editor testing route
+ */
+$app->get('/editor', function() use ($app) {
+	$app->render('editor.php');
+});
+
+/**
  * Permanent route for sample story
  */
 $app->get('/hitting-the-road', function() use ($app) {
